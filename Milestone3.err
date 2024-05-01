@@ -1,0 +1,2 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+SKIPPED: /u/solson1/ece408git/Project/report1.sqlite does not contain NV Tools Extension (NVTX) data.

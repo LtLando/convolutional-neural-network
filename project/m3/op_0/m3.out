@@ -1,0 +1,59 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+==PROF== Connected to process 2994504 (/u/solson1/ece408git/Project/m3)
+==PROF== Profiling "prefn_marker_kernel()" - 0: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 1: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 2: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 3: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 4: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 5: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 6: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 7: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 8: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 9: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 10: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 11: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 12: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 13: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 14: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 15: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 16: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 17: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 18: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 19: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 20: 0%....50%....100% - 34 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 21: 0%....50%....100% - 34 passes
+Layer Time: 44606.2 ms
+Op Time: 0.014156 ms
+Conv-GPU==
+==PROF== Profiling "prefn_marker_kernel()" - 22: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 23: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 24: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 25: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 26: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 27: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 28: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 29: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 30: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 31: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 32: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 33: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 34: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 35: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 36: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 37: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 38: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 39: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 40: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 41: 0%....50%....100% - 34 passes
+==PROF== Profiling "conv_forward_kernel" - 42: 0%....50%....100% - 34 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 43: 0%....50%....100% - 34 passes
+Layer Time: 61045.2 ms
+Op Time: 0.013104 ms
+
+Test Accuracy: 0.8714
+
+==PROF== Disconnected from process 2994504
+==PROF== Report: /u/solson1/ece408git/Project/analysis_file.ncu-rep
